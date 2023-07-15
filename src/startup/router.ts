@@ -5,7 +5,7 @@ const adminRouter = require('../routes/adminRoutes')
 
 module.exports = function(app:Express){
     app.get('/',(req:Request , res:Response)=>{
-        return res.status(200).send(`Welcome to your-images`)
+        return res.status(200).send(`Welcome to tournament-hoster`)
     })
     app.use('/api/v1/auth', authRoutes)
     app.use('/api/v1/admin',adminRouter)
