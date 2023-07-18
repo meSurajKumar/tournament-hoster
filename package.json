@@ -10,7 +10,7 @@
     "build": "rimraf ./build && tsc",
     "ts.check": "tsc --project tsconfig.json",
     "add-build": "git add dist",
-    "pre-commit": "run-script build"
+    "pre-commit": "build"
   },
   "keywords": [],
   "author": "",
